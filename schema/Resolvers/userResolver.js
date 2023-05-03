@@ -51,7 +51,6 @@ export default {
 
       if (updatedUser) {
         const message = { message: "User updated successfully..!!" };
-
         return message;
       }
     },

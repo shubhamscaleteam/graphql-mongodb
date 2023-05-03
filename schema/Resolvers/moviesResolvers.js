@@ -7,7 +7,6 @@ export default {
       return findMovies
     },
     movie: async(_, {title}) => {
-      // console.log(title)
       const findMovie = await Movies.findOne({title});
       return findMovie;
     },
